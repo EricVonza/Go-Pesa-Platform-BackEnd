@@ -10,7 +10,7 @@ const app = express();
 
 // CORS Configuration
 const corsOptions = {
-  origin: '*',
+  origin: 'https://go-pesa-platform.vercel.app/',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
 };
 app.use(cors(corsOptions));
